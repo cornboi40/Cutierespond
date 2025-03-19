@@ -1,0 +1,67 @@
+body {
+	min-	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+        background-color: #f76fa8; 
+        background-image: url("bg1.jpg");
+        background-size: 400px; /* Adjust the size of each image */
+        background-position: 0px 0px; /* Adds 100px gap */
+        background-repeat: repeat; /* Repeats the image */
+}
+
+/* Centers the entire content */
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column; /* Stacks elements vertically */
+    align-items: center; /* Centers elements horizontally */
+    justify-content: center; /* Centers elements vertically */
+    min-height: 100vh;
+    padding: 20px;
+    gap: 20px; /* Adds spacing between elements */
+    text-align: center;
+}
+
+.title {
+    border: 5px solid #36a1cf;
+    padding: 10px 20px;
+    background: rgba(137,207,240, 0.9);
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 24px;
+    display: inline-block;
+}
+
+/* Textbox Styling */
+.textbox {
+    width: 500px;
+    min-height: 150px;
+    padding: 20px;
+    background: #89CFF0;
+    border: 10px solid #2690ed;
+    font-size: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Button Styling */
+.next-button {
+    padding: 10px 20px;
+    background-color: #69acc9;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.next-button:hover {
+    background-color: #ff69b4;
+    color: white;
+}

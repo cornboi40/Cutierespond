@@ -1,0 +1,176 @@
+/* Ensures all elements fit well */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Serif;
+    text-align: center;
+}
+
+/* Background */
+body {
+    background-image: url("bg6.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Centers content */
+.container {
+    width: 100%;
+    padding: 20px;
+}
+
+/* Title Styling */
+.title {
+    border: 10px solid pink;
+    padding: 10px;
+    display: inline-block;
+    margin-bottom: 50px;
+    color: #F70103;
+    background: rgba(255, 192, 203, 1);
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Section: Aligns images and textbox */
+.section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0; /* Remove extra spacing */
+}
+
+/* Image columns (left and right) */
+.image-column {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    flex: 1; /* Allows images to stretch */
+}
+
+
+.image-placeholder1 img{
+    width: 260px;
+    height: 150px;
+    background-color: #f1d4d5;
+    border: 2px solid #ff69b4;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    object-fit: contain;
+}
+
+.image-placeholder2 img{
+    width: 150px;
+    height: 150px;
+    background-color: #f1d4d5;
+    border: 2px solid #ff69b4;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    object-fit: contain;
+}
+
+.image-placeholder3 img{
+    width: 140px;
+    height: 200px;
+    background-color: #f1d4d5;
+    border: 2px solid #ff69b4;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    object-fit: contain;
+}
+
+.image-placeholder4 img{
+    width: 123px;
+    height: 200px;
+    background-color: #f1d4d5;
+    border: 2px solid #ff69b4;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    object-fit: contain;
+}
+
+.image-placeholder5 img{
+    width: 150px;
+    height: 150px;
+    background-color: #f1d4d5;
+    border: 2px solid #ff69b4;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    object-fit: contain;
+}
+
+.image-placeholder6 img{
+    width: 150px;
+    height: 200px;
+    background-color: #f1d4d5;
+    border: 2px solid #ff69b4;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    object-fit: contain;
+}
+
+/* Image Sizing */
+.image-placeholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+/* Centers the textbox and button */
+.textbox {
+    width: 500px;
+    min-height: 200px;
+    padding: 20px;
+    border: 10px solid pink; /* Reduce thickness if needed */
+    font-size: 30px !important; /* Ensure it overrides other styles */
+    font-weight: bold; /* Make text bolder */
+    color: #800040; /* Ensure text is visible */
+    text-align: center; /* Center text */
+    border-radius: 10px;
+    background: rgba(255, 174, 201, 0.85);
+    overflow: visible;
+    margin: auto; /* Center the textbox */
+}
+
+/* Next button */
+.next-button {
+    width: 150px;
+    height: 60px;
+    padding: 10px 20px;
+    background-color: #f1d4d5;
+    color: black;
+    border: 2px solid #f1aacd;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 20px auto; /* Center the button */
+    display: block;
+}
+
+.next-button:hover {
+    background-color: palevioletred;
+    color: white;
+}

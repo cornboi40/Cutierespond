@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> &#128151</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+ 
+    <!-- Background Music -->
+    <audio id="bg-music" loop>
+        <source src="Audio1.mp3" type="audio/mpeg">
+        Your browser does not support the audio tag.
+    </audio>
+
+    <!-- Music Button (Appears If Autoplay Fails) -->
+    <button id="play-music" style="
+        position: fixed; 
+        top: 10px; 
+        right: 10px; 
+        padding: 10px 15px; 
+        background-color: #ff69b4; 
+        color: white; 
+        border: none; 
+        border-radius: 5px; 
+        font-size: 16px;
+        cursor: pointer;
+        display: none; /* Hidden by default */
+    ">🎵</button>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            let audio = document.getElementById("bg-music");
+            let playButton = document.getElementById("play-music");
+
+            // Try to play music automatically
+            audio.play().catch(error => {
+                console.log("Autoplay blocked. Showing button.");
+                playButton.style.display = "block"; // Show button if autoplay fails
+            });
+
+            // Button to manually play music
+            playButton.addEventListener("click", function () {
+                audio.play();
+                playButton.style.display = "none"; // Hide button after playing
+            });
+        });
+    </script>
+
+  <div class="container">
+    <h1 class="title">To My Valentine</h1>
+
+    <div class="section">
+        <!-- Left Image Column -->
+        <div class="image-column">
+            <div class="image-placeholder1"><img src="cute10.jpg" alt="It's You cutie" title="I LOVE sharing food with you."></div>
+            <div class="image-placeholder6"><img src="cute11.jpg" alt="It's You cutie" title="I LOVE hanging out with you."></div>
+            <div class="image-placeholder6"><img src="cute12.jpg" alt="It's You cutie" title="I LOVE the random faces you make "></div>
+            <div class="image-placeholder2"><img src="cute13.jpg" alt="It's You cutie" title="I LOVE your dumb sense of humour."></div>
+            <div class="image-placeholder3"><img src="cute.jpg" alt="It's You cutie" title="Damn you look pretty here."></div>
+            <div class="image-placeholder3"><img src="cute7.jpg" alt="It's You cutie" title="I LOVE talking to you till it's late."></div>
+            <div class="image-placeholder6"><img src="cute3.jpg" alt="It's You cutie" title="I LOVE exploring new places with you."></div>
+        </div>
+
+        <!-- Textbox (Text Area) -->
+        <div class="textbox">
+            <p id="text-content">
+               Hey cutie,
+<Br><Br>
+Thanks for being my Valentine. 
+<Br>
+Initially I thought just asking you to be my Valentine is enough and that'll take care of itself, I honestly had no idea what to do next. Then the Sunday after Valentine's Day, on the 16th of February I had the idea to make this for you with one intention. I had no clue how to make a website so on the bus back from church I watched tutorials and I started immediately after getting back to uni.
+<Br><Br>
+But I still had exams and I was making it secretly while staying in Ram's and Mughi's room, so progress was slow. During the first week of palap it was quite chill and I had some time to continue working on this. And progress continued slowly, even until today with a few tweaks here and there. And there is a little Easter egg for you to find here<Br>(no clues for you).
+<Br><Br>
+You are beautiful, bright, smart, you're also funny <Br>(funniest person I know btw),<Br> you know how to express yourself, and so much more, but also super cuteee. I have known you for nine years, and have always admired you for your hard work, but it's only after leaving school and being away from everyone that I noticed how much you mean to me, that admiration turned into adoration. Initially I didn't understanf those feelings and tried to brush it off. But it has never gone away in the years after leaving school. I figured I noticed it too late, but somehow no matter how much I try to hide it, by some conspiracy, you found out how I feel for you. And because of that I have been writing about you and these feelings for you. 
+<Br><Br>
+Thank you for everything Cutie.
+<Br><Br>
+With all that being said, here's the most important part 
+<Br>
+⬇️</p>
+        </div>
+
+        <!-- Right Image Column -->
+     <div class="image-column">
+            <div class="image-placeholder6"><img src="cute6.jpg" alt="You" title="I LOVE how you are very hardworking."></div>
+            <div class="image-placeholder6"><img src="cute4.jpg" alt="You" title="I LOVE how you are very curious."></div>
+            <div class="image-placeholder4"><img src="cute5.jpg" alt="You" title="I LOVE seeing you do what makes you happy."></div>
+            <div class="image-placeholder1"><img src="cute2.jpg" alt="You" title="I LOVE your cute poses."></div>
+            <div class="image-placeholder3"><img src="cute1.jpg" alt="You" title="I LOVE your smile, it's really pretty."></div>
+            <div class="image-placeholder3"><img src="cute8.jpg" alt="You" title="I LOVE listening to you talk."></div>
+            <div class="image-placeholder6"><img src="cute9.jpg" alt="You" title="I LOVE how kind you are."></div>
+        </div>
+
+    </div>
+
+    <a href="Date response.html" class="next-button">Click here next meww</a>
+</div>
+
+</body>
+</html>
